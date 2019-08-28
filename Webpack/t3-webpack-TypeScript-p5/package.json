@@ -5,7 +5,8 @@
     "description": "p5 Typescript Playground",
     "scripts": {
         "build": "webpack",
-        "watch": "webpack --watch"
+        "watch": "webpack --watch",
+        "clean": "rm ./dist/*"
     },
     "keywords": [],
     "author": "Omar Omar",
