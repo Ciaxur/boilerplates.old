@@ -1,0 +1,5 @@
+{
+    // Typescript Config
+    "tslint.configFile": "./tslint.json",
+    "tslint.run": "onType"
+}

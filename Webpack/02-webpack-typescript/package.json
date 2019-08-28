@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "name": "webpack-demo",
+    "version": "1.0.0",
+    "description": "Webpack - Getting Started",
+    "scripts": {
+        "build": "webpack",
+        "watch": "webpack --watch"
+    },
+    "keywords": [],
+    "author": "Omar Omar",
+    "license": "MIT",
+    "dependencies": {
+        "@types/jquery": "^3.3.4",
+        "jquery": "^3.3.1",
+        "ts-loader": "^4.4.2",
+        "typescript": "^2.9.2",
+        "webpack": "^4.16.0",
+        "webpack-cli": "^3.0.8"
+    }
+}

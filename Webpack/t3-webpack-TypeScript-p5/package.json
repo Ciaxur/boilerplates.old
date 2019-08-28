@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "name": "webpack-p5",
+    "version": "0.0.1",
+    "description": "p5 Typescript Playground",
+    "scripts": {
+        "build": "webpack",
+        "watch": "webpack --watch"
+    },
+    "keywords": [],
+    "author": "Omar Omar",
+    "license": "MIT",
+    "dependencies": {
+        "@types/p5": "^0.7.1",
+        "p5": "^0.7.2",
+        "ts-loader": "^5.3.2",
+        "typescript": "^3.2.2",
+        "webpack": "^4.16.0",
+        "webpack-cli": "^3.0.8"
+    }
+}
