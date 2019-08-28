@@ -1,0 +1,33 @@
+{
+    "private": true,
+    "name": "01-getting-started",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": {
+        "name": "Omar Omar"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "npm run clean && webpack --progress",
+        "prod": "npm run clean && webpack -p",
+        "watch": "webpack --progress --watch",
+        "clean": "rimraf ./dist/*"
+    },
+    "dependencies": {
+        "@types/react": "^16.4.6",
+        "@types/react-dom": "^16.0.6",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1"
+    },
+    "devDependencies": {
+        "css-loader": "^1.0.0",
+        "file-loader": "^1.1.11",
+        "html-webpack-plugin": "^3.2.0",
+        "rimraf": "^2.6.2",
+        "style-loader": "^0.21.0",
+        "ts-loader": "^4.4.2",
+        "typescript": "^2.9.2",
+        "webpack": "^4.16.0",
+        "webpack-cli": "^3.0.8"
+    }
+}
