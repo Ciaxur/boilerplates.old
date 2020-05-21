@@ -11,6 +11,9 @@
     "author": "Omar Omar",
     "license": "MIT",
     "dependencies": {
+        "minimist": ">=0.2.1",
+        "kind-of": ">=6.0.3",
+        "serialize-javascript": ">=2.1.1",
         "@types/jquery": "^3.3.4",
         "jquery": "^3.5.0",
         "ts-loader": "^4.4.2",

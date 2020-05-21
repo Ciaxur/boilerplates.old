@@ -18,5 +18,10 @@
         "typescript": "^3.2.2",
         "webpack": "^4.16.0",
         "webpack-cli": "^3.0.8"
+    },
+    "devDependencies": {
+        "minimist": ">=0.2.1",
+        "kind-of": ">=6.0.3",
+        "serialize-javascript": ">=2.1.1"
     }
 }
